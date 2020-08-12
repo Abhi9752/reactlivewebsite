@@ -10,7 +10,7 @@ const Navbar = () => {
                    <nav className="navbar navbar-expand-lg navbar-light bg-light">
                       <div className="container-fluid">
                       <NavLink className="navbar-brand" to="/">
-                        E-Commerece
+                        E-Commerce
                       </NavLink>
   <button 
     className="navbar-toggler" 
@@ -28,7 +28,7 @@ const Navbar = () => {
           id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
       <li className="nav-item">
-        <NavLink activeclassName='menu_active' 
+        <NavLink activeClassName='menu_active' 
           exact 
           className="nav-link" 
           araia-aria-current="page"
@@ -37,7 +37,7 @@ const Navbar = () => {
           </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink activeclassName="menu_active"
+        <NavLink activeClassName="menu_active"
            exact 
           className="nav-link" 
           araia-aria-current="page"
@@ -47,7 +47,7 @@ const Navbar = () => {
       </li>
 
       <li className="nav-item">
-        <NavLink activeclassName='menu_active'
+        <NavLink activeClassName='menu_active'
         exact 
         className="nav-link" 
         araia-aria-current="page"
@@ -57,7 +57,7 @@ const Navbar = () => {
       </li>
 
       <li className="nav-item">
-        <NavLink activeclassName='menu_active'
+        <NavLink activeClassName='menu_active'
         exact 
         className="nav-link" 
         araia-aria-current="page"
